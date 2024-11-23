@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpo do Conteúdo</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            max-width: 100%;
+        }
+
+        header {
+            background-color: red;
+        }
+
+        div#central {
+            border: black solid 2px;
+            display: flex;
+            padding: 0px;
+            width: 1000px;
+            margin: auto;
+        }
+
+        main {
+            background-color: green;
+            flex: 1;
+            min-height: 80vh;
+        }
+
+        aside {
+            background-color: blue;
+            width: 250px;
+        }
+
+        footer {
+            background-color: purple;
+        }
+
+        .caixa {
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="caixa"> Cabeçalho </header>
+
+    <div class="caixa" id="central">
+        <main class="caixa"> Conteúdo Principal </main>
+
+        <aside class="caixa"> Conteúdo Lateral </aside>
+    </div>
+
+    <footer class="caixa"> Rodapé </footer>
+
+</body>
+
+</html>

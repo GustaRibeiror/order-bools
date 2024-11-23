@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.button {
+    @apply flex justify-center items-center gap-2;
+    @apply py-1 px-8 rounded-md;
+}
+
+.button.blue {
+    @apply bg-blue-950 text-white;
+}
+
+.button:hover {
+    @apply bg-blue-500 text-white/50;
+}
